@@ -1,0 +1,72 @@
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    overflow-x: auto;
+    border-radius: 8px;
+    background: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color:#141313;
+    color: white;
+    font-weight: bold;
+}
+
+.odd-row {
+    background-color: #f9f9f9;
+}
+
+.even-row {
+    background-color: #ffffff;
+}
+
+.custom-table input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.delete-btn {
+  background-color: red; /* Red background */
+  color: rgb(30, 29, 29); /* White text */
+  border: none; /* Remove default border */
+  padding: 8px 15px; /* Padding for better spacing */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.delete-btn:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.delete-btn:disabled {
+  background-color: #e45a5a; /* Greyed out when disabled */
+  cursor: not-allowed; /* Show not-allowed cursor */
+}
+
